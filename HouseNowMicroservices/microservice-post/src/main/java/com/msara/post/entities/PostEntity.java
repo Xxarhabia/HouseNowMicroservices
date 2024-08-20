@@ -29,12 +29,5 @@ public class PostEntity {
     @Column(name = "date_modify")
     private LocalDateTime dateModify;
 
-    @Column(name = "like_id")
-    private Long likeId;
-
-    @Column(name = "comment_id")
-    private Long commentId;
-
-    @Column(name = "share_id")
-    private Long shareId;
+    private int qualification;
 }
